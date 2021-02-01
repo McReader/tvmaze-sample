@@ -18,7 +18,7 @@ export function App({ showDetailsElement }) {
             { showDetailsElement }
           </Route>
           <Route path="/" exact>
-            <Redirect to="/shows/667" /> 
+            <Redirect to="/shows/6771" />
           </Route>
         </Switch>
       </div>

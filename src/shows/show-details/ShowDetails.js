@@ -17,6 +17,7 @@ export function ShowDetails({ episodesListElement, show, requestStatus }) {
                             <h1>{name}</h1>
                             <CoverImage image={image} />
                             <Summary summary={summary} />
+                            <h2>Episodes</h2>
                             { episodesListElement }
                         </>
                     );
