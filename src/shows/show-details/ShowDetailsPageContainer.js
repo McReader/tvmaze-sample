@@ -1,7 +1,7 @@
 import { ShowDetailsPage } from "./ShowDetailsPage";
 
 import { EpisodeDetailsContainer } from "../../episodes/episode-details/EpisodeDetailsContainer";
-import { ShowDetailsContainer } from ".//ShowDetailsContailer";
+import { ShowDetailsContainer } from "./ShowDetailsContailer";
 
 export function ShowDetailsPageContainer() {
     return (

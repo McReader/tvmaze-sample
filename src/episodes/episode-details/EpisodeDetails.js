@@ -1,12 +1,21 @@
 import { CoverImage } from "../../ui-lib/CoverImage";
 import { Summary } from "../../ui-lib/Summary";
+import { RequestStatus } from "../../ui-lib/RequestStatus";
 
-export function EpisodeDetails({ episode }) {
+export function EpisodeDetails({ episode, requestStatus }) {
     return (
         <div>
-            <h1>{ episode.name }</h1>
-            <CoverImage image={episode.image} />
-            <Summary summary={episode.summary} />
+            <RequestStatus requestStatus={requestStatus}>
+                {() => {
+                    return (
+                        <>
+                            <h1>{ episode.name }</h1>
+                            <CoverImage image={episode.image} />
+                            <Summary summary={episode.summary} />
+                        </>
+                    );
+                }}
+            </RequestStatus>
         </div>
     );
 }

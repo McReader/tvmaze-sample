@@ -10,7 +10,7 @@ const cache = setupCache({
 const httpClient = axios.create({
     adapter: cache.adapter,
     baseURL: BASE_URL,
-    timeout: 2000,
+    timeout: 30000,
     headers: DEFAULT_HEADERS,
 });
 

@@ -8,6 +8,12 @@ export const fetchShowEpisodeList = createAsyncThunk(`${PREFIX}/fetchShowEpisode
 });
 
 export const fetchEpisodeMainInformation = createAsyncThunk(`${PREFIX}/fetchEpisodeMainInformation`, async ({ showId, episodeId }, thunkAPI) => {
+    const episode = episodesSelectors.selectById(thunkAPI.getState(), episodeId);
+
+    if (episode) {
+        return Promise.resolve(episode);
+    }
+
     const result = await thunkAPI.extra.episodesService.getEpisodeMainInformation(episodeId);
     return result.data;
 });
@@ -37,5 +43,5 @@ export const episodesSlice = createSlice({
 
 export const episodesSelectors = {
     ...episodesAdapter.getSelectors((state) => state.episodes),
-    getByShowId: (state) => {  },
+    selectByShowId: (state) => {  },
 };

@@ -1,18 +1,27 @@
 import PropTypes from "prop-types";
 
 import { CoverImage, coverImagePropType } from "../../ui-lib/CoverImage";
-import { EpisodesList } from "../../episodes/episodes-list/EpisodesList";
 import { Summary, summaryPropType } from "../../ui-lib/Summary";
 
-export function ShowDetails({ show, episodes }) {
-    const { image, name, summary } = show;
+import { RequestStatus, requestStatusPropType } from "../../ui-lib/RequestStatus";
 
+export function ShowDetails({ episodesListElement, show, requestStatus }) {
     return (
         <div>
-            <h1>{name}</h1>
-            <CoverImage image={image} />
-            <Summary summary={summary} />
-            { episodes ? <EpisodesList episodes={episodes} /> : null}
+            <RequestStatus requestStatus={requestStatus}>
+                {() => {
+                    const { image, name, summary } = show;
+
+                    return (
+                        <>
+                            <h1>{name}</h1>
+                            <CoverImage image={image} />
+                            <Summary summary={summary} />
+                            { episodesListElement }
+                        </>
+                    );
+                }}
+            </RequestStatus>
         </div>
     );
 }
@@ -22,5 +31,7 @@ ShowDetails.propTypes = {
         image: coverImagePropType,
         name: PropTypes.string.isRequired,
         summary: summaryPropType,
-    }).isRequired,
+    }),
+    episodesListElement: PropTypes.element.isRequired,
+    requestStatus: requestStatusPropType,
 };

@@ -11,7 +11,9 @@ const showsAdapter = createEntityAdapter();
 
 export const showsSlice = createSlice({
     name: PREFIX,
-    initialState: showsAdapter.getInitialState(),
+    initialState: {
+        ...showsAdapter.getInitialState(),
+    },
     reducers: {
         // standard reducer logic, with auto-generated action types per reducer
     },

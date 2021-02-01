@@ -5,21 +5,24 @@ import { useParams } from "react-router-dom";
 import { episodesSelectors, fetchEpisodeMainInformation } from "../store";
 
 import { EpisodeDetails } from "./EpisodeDetails";
+import { episodeDetailsPageSelectors } from "./store";
 
 export function EpisodeDetailsContainer() {
     const dispatch = useDispatch();
     const { episodeId, showId } = useParams();
-    const episode = useSelector(state => episodesSelectors.selectById(state, episodeId));
+
+    const { episode, requestStatus } = useSelector(state => ({
+        episode: episodesSelectors.selectById(state, episodeId),
+        requestStatus: episodeDetailsPageSelectors.selectEpisodesDetailsRequestStatus(state),
+    }));
 
     useEffect(() => {
-        if (!episode) {
-            dispatch(fetchEpisodeMainInformation({ episodeId, showId }));
-        }
+        const episodeMainInformationPromise = dispatch(fetchEpisodeMainInformation({ episodeId, showId }));
+
+        return () => {
+            episodeMainInformationPromise?.abort();
+        };
     }, [episode, episodeId, dispatch, showId]);
 
-    if (!episode) {
-        return null;
-    }
-
-    return <EpisodeDetails episode={episode} />;
+    return <EpisodeDetails episode={episode} requestStatus={requestStatus} />;
 }
