@@ -1,4 +1,6 @@
 import PropTypes from "prop-types";
+import { CircularProgress } from "@material-ui/core";
+import ErrorIcon from '@material-ui/icons/Error';
 
 export const REQUEST_STATUS_IDLE = "idle";
 export const REQUEST_STATUS_PENDING = "pending";
@@ -12,11 +14,11 @@ export const REQUEST_STATUS_REJECTED = "rejected";
  */
 export function RequestStatus({ children, requestStatus = REQUEST_STATUS_IDLE }) {
     if (requestStatus === REQUEST_STATUS_IDLE || requestStatus === REQUEST_STATUS_PENDING) {
-        return "progress";
+        return <CircularProgress  />;
     }
 
     if (requestStatus === REQUEST_STATUS_REJECTED) {
-        return "error";
+        return <ErrorIcon />;
     }
 
     return children();

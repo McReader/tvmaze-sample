@@ -1,4 +1,5 @@
 import { StylesProvider } from '@material-ui/core/styles';
+import CssBaseline from '@material-ui/core/CssBaseline';
 
 import {
   BrowserRouter as Router,
@@ -9,12 +10,11 @@ import {
 
 import PropTypes from "prop-types";
 
-import './App.css';
-
 export function App({ showDetailsElement }) {
   return (
     <Router>
       <StylesProvider injectFirst>
+        <CssBaseline />
         <div className="App">
           <Switch>
             <Route path="/shows/:showId">

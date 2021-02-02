@@ -1,4 +1,4 @@
-import { CoverImage } from "../../ui-lib/CoverImage";
+import { CoverImage } from "../../ui-lib/cover-image/CoverImage";
 import { Summary } from "../../ui-lib/Summary";
 import { RequestStatus } from "../../ui-lib/RequestStatus";
 

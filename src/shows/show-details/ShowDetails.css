@@ -2,3 +2,22 @@
     height: 100%;
     width: 100%;
 }
+
+.ShowDetails h1, h2 {
+    padding: 0 16px;
+}
+
+.ShowDetailsSummaryContainer {
+    display: flex;
+    margin: 0 8px;
+}
+
+@media only screen and (max-width: 650px) {
+    .ShowDetailsSummaryContainer {
+        flex-flow: column;
+    }
+
+    .ShowDetailsSummaryContainer {
+        margin: 0;
+    }
+}

@@ -20,7 +20,7 @@ export function EpisodeDetailsContainer() {
         const episodeMainInformationPromise = dispatch(fetchEpisodeMainInformation({ episodeId, showId }));
 
         return () => {
-            episodeMainInformationPromise?.abort();
+            episodeMainInformationPromise.abort();
         };
     }, [episode, episodeId, dispatch, showId]);
 

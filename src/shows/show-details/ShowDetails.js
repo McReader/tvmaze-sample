@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import { CoverImage, coverImagePropType } from "../../ui-lib/CoverImage";
+import { CoverImage, coverImagePropType } from "../../ui-lib/cover-image/CoverImage";
 import { Summary, summaryPropType } from "../../ui-lib/Summary";
 
 import { RequestStatus, requestStatusPropType } from "../../ui-lib/RequestStatus";
@@ -17,8 +17,10 @@ export function ShowDetails({ episodesListElement, show, requestStatus }) {
                     return (
                         <>
                             <h1>{name}</h1>
-                            <CoverImage image={image} />
-                            <Summary summary={summary} />
+                            <div className="ShowDetailsSummaryContainer">
+                                <CoverImage image={image} />
+                                <Summary summary={summary} />
+                            </div>
                             <h2>Episodes</h2>
                             { episodesListElement }
                         </>
