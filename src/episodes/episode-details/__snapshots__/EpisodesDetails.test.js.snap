@@ -18,7 +18,7 @@ exports[`when request status is "fulfilled" and there is episode should match sn
         srcSet="http://static.tvmaze.com/uploads/images/original_untouched/1/4388.jpg"
       />
       <source
-        media="(man-width:900px)"
+        media="(max-width:900px)"
         srcSet="http://static.tvmaze.com/uploads/images/medium_landscape/1/4388.jpg"
       />
       <img

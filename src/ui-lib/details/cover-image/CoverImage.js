@@ -6,7 +6,7 @@ export function CoverImage({ className, image }) {
     return (
         <picture className={className}>
             <source media="(max-width:600px)" srcSet={image.original} />
-            <source media="(man-width:900px)" srcSet={image.medium} />
+            <source media="(max-width:900px)" srcSet={image.medium} />
             <img className="CoverImageImg" src={image.original} alt="Cover" />
         </picture>
     )

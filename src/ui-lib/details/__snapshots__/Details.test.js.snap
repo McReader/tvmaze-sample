@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when request status is "fulfilled" and there is a show should match snapshot 1`] = `
+<div
+  className="Details"
+>
+  <h1>
+    Under the Dome
+  </h1>
+  <div
+    className="DetailsSummaryContainer"
+  >
+    <picture
+      className="DetailsCoverImage"
+    >
+      <source
+        media="(max-width:600px)"
+        srcSet="http://static.tvmaze.com/uploads/images/original_untouched/81/202627.jpg"
+      />
+      <source
+        media="(max-width:900px)"
+        srcSet="http://static.tvmaze.com/uploads/images/medium_portrait/81/202627.jpg"
+      />
+      <img
+        alt="Cover"
+        className="CoverImageImg"
+        src="http://static.tvmaze.com/uploads/images/original_untouched/81/202627.jpg"
+      />
+    </picture>
+    <summary
+      className="DetailsSummary"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<p><b>Under the Dome</b> is the story of a small town that is suddenly and inexplicably sealed off from the rest of the world by an enormous transparent dome. The town's inhabitants must deal with surviving the post-apocalyptic conditions while searching for answers about the dome, where it came from and if and when it will go away.</p>",
+        }
+      }
+    />
+  </div>
+</div>
+`;

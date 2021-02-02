@@ -21,7 +21,7 @@ exports[`when request status is "fulfilled" and there is a show should match sna
           srcSet="http://static.tvmaze.com/uploads/images/original_untouched/81/202627.jpg"
         />
         <source
-          media="(man-width:900px)"
+          media="(max-width:900px)"
           srcSet="http://static.tvmaze.com/uploads/images/medium_portrait/81/202627.jpg"
         />
         <img
