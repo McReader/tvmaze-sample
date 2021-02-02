@@ -3,16 +3,22 @@ import { Link } from "react-router-dom";
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
 
+import { Image } from "../../../ui-lib/Image";
+
 export function EpisodeListItem({ episode, currentUrl }) {
     return (
-        <Link to={`${currentUrl}/episodes/${episode.id}`}>
-            <GridListTile key={episode.id}>
-                <img src={episode.image?.medium} alt={episode.name} />
+        <GridListTile key={episode.id}>
+            <Link to={`${currentUrl}/episodes/${episode.id}`}>
+                <Image
+                    src={episode.image?.medium} alt={episode.name}
+                    placeholderWidth={250}
+                    placeholderHeight={140}
+                />
                 <GridListTileBar
                     title={episode.name}
                     subtitle={`S${episode.season}E${episode.number}`}
                 />
-            </GridListTile>
-        </Link>
+            </Link>
+        </GridListTile>
     );
 }
