@@ -2,9 +2,9 @@ import PropTypes from "prop-types";
 
 import "./CoverImage.css";
 
-export function CoverImage({ image }) {
+export function CoverImage({ className, image }) {
     return (
-        <picture>
+        <picture className={className}>
             <source media="(max-width:600px)" srcSet={image.original} />
             <source media="(man-width:900px)" srcSet={image.medium} />
             <img className="CoverImageImg" src={image.original} alt="Cover" />
@@ -18,5 +18,6 @@ export const coverImagePropType = PropTypes.shape({
 });
 
 CoverImage.propTypes = {
+    className: PropTypes.string,
     image: coverImagePropType.isRequired,
 };

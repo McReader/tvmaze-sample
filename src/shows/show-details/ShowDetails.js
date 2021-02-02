@@ -18,8 +18,8 @@ export function ShowDetails({ episodesListElement, show, requestStatus }) {
                         <>
                             <h1>{name}</h1>
                             <div className="ShowDetailsSummaryContainer">
-                                <CoverImage image={image} />
-                                <Summary summary={summary} />
+                                <CoverImage className="ShowDetailsCoverImage" image={image} />
+                                <Summary className="ShowDetailsSummary" summary={summary} />
                             </div>
                             <h2>Episodes</h2>
                             { episodesListElement }

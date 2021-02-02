@@ -12,12 +12,26 @@
     margin: 0 8px;
 }
 
-@media only screen and (max-width: 650px) {
+.ShowDetailsSummary {
+    margin-left: 16px;
+}
+
+.ShowDetailsCoverImage {
+    max-width: 500px;
+    min-width: 200px;
+}
+
+@media only screen and (max-width: 500px) {
     .ShowDetailsSummaryContainer {
         flex-flow: column;
     }
 
     .ShowDetailsSummaryContainer {
         margin: 0;
+    }
+
+    .ShowDetailsSummary {
+        margin-left: 0;
+        padding: 0 8px;
     }
 }
