@@ -6,13 +6,19 @@ import { EpisodeListItem } from "./item/EpisodeListItem";
 
 import "./EpisodesList.css";
 
-export function EpisodesList({ episodes, requestStatus }) {
+export function EpisodesList({ currentUrl = "", episodes = [], requestStatus }) {
     return (
         <div className="EpisodesList">
             <RequestStatus requestStatus={requestStatus}>
                 {() => (
                     <GridList className="EpisodesListGrid">
-                        {episodes.map(episode => <EpisodeListItem key={episode.id} episode={episode} />)}
+                        {episodes.map(episode => (
+                            <EpisodeListItem
+                                currentUrl={currentUrl}
+                                episode={episode}
+                                key={episode.id}
+                            />
+                        ))}
                     </GridList>
                 )}
             </RequestStatus>
