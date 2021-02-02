@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { memo, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 
@@ -8,6 +8,8 @@ import { fetchShowMainInfo, showsSelectors } from "../store";
 import { ShowDetails } from "./ShowDetails";
 import { EpisodesListContainer } from "./episodes-list/EpisodesListContainer";
 import { showDetailsPageSelectors } from "./store";
+
+const EnhancedShowDetails = memo(ShowDetails);
 
 export function ShowDetailsContainer() {
     const dispatch = useDispatch();
@@ -32,7 +34,7 @@ export function ShowDetailsContainer() {
     }));
 
     return (
-        <ShowDetails
+        <EnhancedShowDetails
             episodesListElement={<EpisodesListContainer />}
             show={show}
             requestStatus={showDetailsRequestStatus}

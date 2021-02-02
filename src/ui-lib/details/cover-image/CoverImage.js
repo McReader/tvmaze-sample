@@ -12,8 +12,8 @@ export function CoverImage({ className, image }) {
             <Image
                 alt="Cover"
                 className="CoverImageImg"
-                placeholderHeight={900}
-                placeholderWidth={600}
+                placeholderHeight={600}
+                placeholderWidth={500}
                 src={image?.original}
             />
         </picture>
