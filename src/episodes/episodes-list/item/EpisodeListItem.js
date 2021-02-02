@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
 
-import { Image } from "../../../ui-lib/Image";
+import { Image } from "../../../ui-lib/image/Image";
 
 export function EpisodeListItem({ episode, currentUrl }) {
     return (

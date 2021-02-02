@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when "src" prop is not provided and "placeholderWidth" and "placeholderHeight" are provided" should render image placeholder with provided width and height 1`] = `
+<img
+  src="https://via.placeholder.com/200x140?text=No image"
+/>
+`;
+
+exports[`when "src" prop is not provided and "placeholderWidth" is provided" should render square image placeholder with provided size 1`] = `
+<img
+  src="https://via.placeholder.com/200?text=No image"
+/>
+`;
+
+exports[`when "src" prop is not provided should render image placeholder with default size 1`] = `
+<img
+  src="https://via.placeholder.com/140?text=No image"
+/>
+`;
+
+exports[`when "src" prop is provided should render image with provided "src" 1`] = `
+<img
+  src="https://example.com"
+/>
+`;
