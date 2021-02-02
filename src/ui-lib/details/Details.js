@@ -31,11 +31,13 @@ export function Details({ requestStatus, details }) {
     );
 }
 
+export const detailsPropTypes = PropTypes.shape({
+    image: coverImagePropType,
+    name: PropTypes.string.isRequired,
+    summary: PropTypes.string,
+});
+
 Details.propTypes = {
-    details: PropTypes.shape({
-        image: coverImagePropType,
-        name: PropTypes.string.isRequired,
-        summary: PropTypes.string,
-    }),
+    details: detailsPropTypes,
     requestStatus: requestStatusPropType,
 };

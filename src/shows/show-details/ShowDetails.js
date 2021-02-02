@@ -1,9 +1,8 @@
 import PropTypes from "prop-types";
 
-import { coverImagePropType } from "../../ui-lib/details/cover-image/CoverImage";
 
 import { requestStatusPropType } from "../../ui-lib/request-status/RequestStatus";
-import { Details } from "../../ui-lib/details/Details";
+import { Details, detailsPropTypes } from "../../ui-lib/details/Details";
 
 import "./ShowDetails.css";
 
@@ -18,11 +17,7 @@ export function ShowDetails({ episodesListElement, show, requestStatus }) {
 }
 
 ShowDetails.propTypes = {
-    show: PropTypes.shape({
-        image: coverImagePropType,
-        name: PropTypes.string.isRequired,
-        summary: PropTypes.string,
-    }),
+    show: detailsPropTypes,
     episodesListElement: PropTypes.element.isRequired,
     requestStatus: requestStatusPropType,
 };
