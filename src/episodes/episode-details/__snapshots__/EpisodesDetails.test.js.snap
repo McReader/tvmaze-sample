@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when request status is "fulfilled" and there is episode should match snapshot 1`] = `
+<div
+  className="Details"
+>
+  <h1>
+    Pilot
+  </h1>
+  <div
+    className="DetailsSummaryContainer"
+  >
+    <picture
+      className="DetailsCoverImage"
+    >
+      <source
+        media="(max-width:600px)"
+        srcSet="http://static.tvmaze.com/uploads/images/original_untouched/1/4388.jpg"
+      />
+      <source
+        media="(man-width:900px)"
+        srcSet="http://static.tvmaze.com/uploads/images/medium_landscape/1/4388.jpg"
+      />
+      <img
+        alt="Cover"
+        className="CoverImageImg"
+        src="http://static.tvmaze.com/uploads/images/original_untouched/1/4388.jpg"
+      />
+    </picture>
+    <summary
+      className="DetailsSummary"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<p>When the residents of Chester's Mill find themselves trapped under a massive transparent dome with no way out, they struggle to survive as resources rapidly dwindle and panic quickly escalates.</p>",
+        }
+      }
+    />
+  </div>
+</div>
+`;
