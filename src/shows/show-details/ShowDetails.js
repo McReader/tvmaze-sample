@@ -5,9 +5,11 @@ import { Summary, summaryPropType } from "../../ui-lib/Summary";
 
 import { RequestStatus, requestStatusPropType } from "../../ui-lib/RequestStatus";
 
+import "./ShowDetails.css";
+
 export function ShowDetails({ episodesListElement, show, requestStatus }) {
     return (
-        <div>
+        <div className="ShowDetails">
             <RequestStatus requestStatus={requestStatus}>
                 {() => {
                     const { image, name, summary } = show;

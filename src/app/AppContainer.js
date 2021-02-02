@@ -1,6 +1,6 @@
 import { Provider } from "react-redux";
 
-import { ShowDetailsPageContainer } from "../shows/show-details/ShowDetailsPageContainer";
+import { ShowDetailsPageContainer } from "../shows/show-details-page/ShowDetailsPageContainer";
 
 import { App } from "./App";
 import { store } from "./store";

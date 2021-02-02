@@ -1,3 +1,5 @@
+import { StylesProvider } from '@material-ui/core/styles';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,16 +14,18 @@ import './App.css';
 export function App({ showDetailsElement }) {
   return (
     <Router>
-      <div className="App">
-        <Switch>
-          <Route path="/shows/:showId">
-            { showDetailsElement }
-          </Route>
-          <Route path="/" exact>
-            <Redirect to="/shows/6771" />
-          </Route>
-        </Switch>
-      </div>
+      <StylesProvider injectFirst>
+        <div className="App">
+          <Switch>
+            <Route path="/shows/:showId">
+              { showDetailsElement }
+            </Route>
+            <Route path="/" exact>
+              <Redirect to="/shows/6771" />
+            </Route>
+          </Switch>
+        </div>
+      </StylesProvider>
     </Router>
   );
 }
