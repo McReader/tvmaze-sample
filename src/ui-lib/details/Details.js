@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import classnames from "classnames";
 
 import { RequestStatus, requestStatusPropType } from "../request-status/RequestStatus";
 
@@ -6,9 +7,9 @@ import { CoverImage, coverImagePropType } from "./cover-image/CoverImage";
 
 import "./Details.css";
 
-export function Details({ requestStatus, details }) {
+export function Details({ children, className, requestStatus, details }) {
     return (
-        <div className="Details">
+        <div className={classnames("Details", className)}>
             <RequestStatus requestStatus={requestStatus}>
                 {() => {
                     const { image, name, summary } = details;
@@ -23,6 +24,7 @@ export function Details({ requestStatus, details }) {
                                     dangerouslySetInnerHTML={{ __html: summary }}
                                 />
                             </div>
+                            {children}
                         </>
                     );
                 }}
@@ -38,6 +40,8 @@ export const detailsPropTypes = PropTypes.shape({
 });
 
 Details.propTypes = {
+    children: PropTypes.node,
+    className: PropTypes.string,
     details: detailsPropTypes,
     requestStatus: requestStatusPropType,
 };

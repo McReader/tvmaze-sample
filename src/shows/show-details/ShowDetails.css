@@ -1,8 +1,3 @@
-.ShowDetails {
-    height: 100%;
-    width: 100%;
-}
-
 .ShowDetails h2 {
-    padding: 0 16px;
+    padding: 16px;
 }

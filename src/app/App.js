@@ -15,16 +15,14 @@ export function App({ showDetailsElement }) {
     <Router>
       <StylesProvider injectFirst>
         <CssBaseline />
-        <div className="App">
-          <Switch>
-            <Route path="/shows/:showId">
-              { showDetailsElement }
-            </Route>
-            <Route path="/" exact>
-              <Redirect to="/shows/6771" />
-            </Route>
-          </Switch>
-        </div>
+        <Switch>
+          <Route path="/shows/:showId">
+            { showDetailsElement }
+          </Route>
+          <Route path="/" exact>
+            <Redirect to="/shows/6771" />
+          </Route>
+        </Switch>
       </StylesProvider>
     </Router>
   );

@@ -7,7 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-p {
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+p, h1, h2 {
   margin: 0;
 }
 
