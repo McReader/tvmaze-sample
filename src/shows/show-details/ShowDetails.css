@@ -3,35 +3,6 @@
     width: 100%;
 }
 
-.ShowDetails h1, h2 {
+.ShowDetails h2 {
     padding: 0 16px;
-}
-
-.ShowDetailsSummaryContainer {
-    display: flex;
-    margin: 0 8px;
-}
-
-.ShowDetailsSummary {
-    margin-left: 16px;
-}
-
-.ShowDetailsCoverImage {
-    max-width: 500px;
-    min-width: 200px;
-}
-
-@media only screen and (max-width: 500px) {
-    .ShowDetailsSummaryContainer {
-        flex-flow: column;
-    }
-
-    .ShowDetailsSummaryContainer {
-        margin: 0;
-    }
-
-    .ShowDetailsSummary {
-        margin-left: 0;
-        padding: 0 8px;
-    }
 }

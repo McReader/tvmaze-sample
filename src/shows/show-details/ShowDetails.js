@@ -1,32 +1,18 @@
 import PropTypes from "prop-types";
 
-import { CoverImage, coverImagePropType } from "../../ui-lib/cover-image/CoverImage";
-import { Summary, summaryPropType } from "../../ui-lib/Summary";
+import { coverImagePropType } from "../../ui-lib/details/cover-image/CoverImage";
 
-import { RequestStatus, requestStatusPropType } from "../../ui-lib/RequestStatus";
+import { requestStatusPropType } from "../../ui-lib/request-status/RequestStatus";
+import { Details } from "../../ui-lib/details/Details";
 
 import "./ShowDetails.css";
 
 export function ShowDetails({ episodesListElement, show, requestStatus }) {
     return (
         <div className="ShowDetails">
-            <RequestStatus requestStatus={requestStatus}>
-                {() => {
-                    const { image, name, summary } = show;
-
-                    return (
-                        <>
-                            <h1>{name}</h1>
-                            <div className="ShowDetailsSummaryContainer">
-                                <CoverImage className="ShowDetailsCoverImage" image={image} />
-                                <Summary className="ShowDetailsSummary" summary={summary} />
-                            </div>
-                            <h2>Episodes</h2>
-                            { episodesListElement }
-                        </>
-                    );
-                }}
-            </RequestStatus>
+            <Details requestStatus={requestStatus} details={show} />
+            <h2>Episodes</h2>
+            { episodesListElement }
         </div>
     );
 }
@@ -35,7 +21,7 @@ ShowDetails.propTypes = {
     show: PropTypes.shape({
         image: coverImagePropType,
         name: PropTypes.string.isRequired,
-        summary: summaryPropType,
+        summary: PropTypes.string,
     }),
     episodesListElement: PropTypes.element.isRequired,
     requestStatus: requestStatusPropType,

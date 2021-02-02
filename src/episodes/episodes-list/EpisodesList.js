@@ -1,6 +1,6 @@
 import GridList from '@material-ui/core/GridList';
 
-import { RequestStatus } from "../../ui-lib/RequestStatus";
+import { RequestStatus } from "../../ui-lib/request-status/RequestStatus";
 
 import { EpisodeListItem } from "./item/EpisodeListItem";
 

@@ -1,0 +1,37 @@
+.Details {
+    height: 100%;
+    width: 100%;
+}
+
+.Details h1 {
+    padding: 0 16px;
+}
+
+.DetailsSummaryContainer {
+    display: flex;
+    margin: 0 8px;
+}
+
+.DetailsSummary {
+    margin-left: 16px;
+}
+
+.DetailsCoverImage {
+    max-width: 500px;
+    min-width: 200px;
+}
+
+@media only screen and (max-width: 500px) {
+    .DetailsSummaryContainer {
+        flex-flow: column;
+    }
+
+    .DetailsSummaryContainer {
+        margin: 0;
+    }
+
+    .DetailsSummary {
+        margin-left: 0;
+        padding: 0 8px;
+    }
+}
