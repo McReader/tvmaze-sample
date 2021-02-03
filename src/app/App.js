@@ -12,7 +12,7 @@ import CssBaseline from "@material-ui/core/CssBaseline"
 
 import { ProgressPlaceholder } from "../ui-lib/progress-placeholder/ProgressPlaceholder"
 
-import { ShowDetailsPage } from "../shows/show-details-page/ShowDetailsPage"
+import { ShowDetailsPage } from "./shows/show-details/ShowDetailsPage"
 
 import { store } from "./store"
 

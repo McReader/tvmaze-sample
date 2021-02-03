@@ -1,4 +1,4 @@
-import showDetails from "../tvmaze-sdk/shows/showMainInformationSample.json"
+import showDetails from "../../tvmaze-sdk/shows/showMainInformationSample.json"
 
 import { fetchShowMainInfo, initialState, showsSlice } from "./store"
 

@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom"
 import { fetchShowEpisodeList } from "../../episodes/store"
 import { fetchShowMainInfo, showsSelectors } from "../store"
 
-import { ShowDetails } from "./ShowDetails"
+import { ShowDetails } from "../../../shows/show-details/ShowDetails"
 import { EpisodesListContainer } from "./episodes-list/EpisodesListContainer"
 import { showDetailsPageSelectors } from "./store"
 

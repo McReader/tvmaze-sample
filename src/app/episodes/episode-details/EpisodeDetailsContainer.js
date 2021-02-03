@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom"
 
 import { episodesSelectors, fetchEpisodeMainInformation } from "../store"
 
-import { EpisodeDetails } from "./EpisodeDetails"
+import { EpisodeDetails } from "../../../episodes/episode-details/EpisodeDetails"
 import { episodeDetailsPageSelectors } from "./store"
 
 export default function EpisodeDetailsContainer() {

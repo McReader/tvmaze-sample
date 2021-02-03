@@ -2,7 +2,7 @@ import { memo } from "react"
 import { useSelector } from "react-redux"
 import { useRouteMatch } from "react-router-dom"
 
-import { EpisodesList } from "../../../episodes/episodes-list/EpisodesList"
+import { EpisodesList } from "../../../../episodes/episodes-list/EpisodesList"
 import { episodesSelectors } from "../../../episodes/store"
 
 import { showDetailsPageSelectors } from "../store"

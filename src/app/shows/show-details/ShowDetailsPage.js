@@ -5,9 +5,7 @@ const LazyEpisodeDetailsContainer = lazy(() =>
 	import("../../episodes/episode-details/EpisodeDetailsContainer")
 )
 
-const LazyShowDetailsContainer = lazy(() =>
-	import("../show-details/ShowDetailsContailer")
-)
+const LazyShowDetailsContainer = lazy(() => import("./ShowDetailsContailer"))
 
 export function ShowDetailsPage() {
 	const { path } = useRouteMatch()
