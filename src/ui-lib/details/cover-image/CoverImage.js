@@ -7,6 +7,7 @@ import "./CoverImage.css"
 export function CoverImage({ className, image }) {
 	return (
 		<picture className={className}>
+			{/* Todo use design tokens to get breakpoints values */}
 			<source media="(max-width:600px)" srcSet={image?.original} />
 			<source media="(max-width:900px)" srcSet={image?.medium} />
 			<Image
