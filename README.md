@@ -39,6 +39,9 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+### `npm run build-dictionary`
+Builds design tokens .scss and .js files. This files will be created in src/style-dictionary folder 
+
 ## State management
 We use [Redux](https://redux.js.org/introduction/getting-started) library to manage application state. To reduce the amount of boilerplate code, we utilize abilities of the [@reduxjs/toolkit](https://redux-toolkit.js.org) package.
 

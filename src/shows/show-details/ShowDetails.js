@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { requestStatusPropType } from "../../ui-lib/request-status/RequestStatus"
 import { Details, detailsPropTypes } from "../../ui-lib/details/Details"
 
-import "./ShowDetails.css"
+import "./ShowDetails.scss"
 
 export function ShowDetails({ episodesListElement, show, requestStatus }) {
 	return (

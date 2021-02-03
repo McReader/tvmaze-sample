@@ -4,7 +4,7 @@ import { RequestStatus } from "../../ui-lib/request-status/RequestStatus"
 
 import { EpisodeListItem } from "./item/EpisodeListItem"
 
-import "./EpisodesList.css"
+import "./EpisodesList.scss"
 
 export function EpisodesList({
 	currentUrl = "",

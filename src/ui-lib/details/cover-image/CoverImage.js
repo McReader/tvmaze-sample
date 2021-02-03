@@ -1,15 +1,25 @@
 import PropTypes from "prop-types"
 
+import {
+	BreakpointMobile,
+	BreakpointTablet,
+} from "../../../design-tokens/variables"
+
 import { Image } from "../../image/Image"
 
-import "./CoverImage.css"
+import "./CoverImage.scss"
 
 export function CoverImage({ className, image }) {
 	return (
 		<picture className={className}>
-			{/* Todo use design tokens to get breakpoints values */}
-			<source media="(max-width:600px)" srcSet={image?.original} />
-			<source media="(max-width:900px)" srcSet={image?.medium} />
+			<source
+				media={`(max-width:${BreakpointMobile}`}
+				srcSet={image?.original}
+			/>
+			<source
+				media={`(max-width:${BreakpointTablet})`}
+				srcSet={image?.medium}
+			/>
 			<Image
 				alt="Cover"
 				className="CoverImageImg"

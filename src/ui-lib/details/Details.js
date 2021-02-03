@@ -8,7 +8,7 @@ import {
 
 import { CoverImage, coverImagePropType } from "./cover-image/CoverImage"
 
-import "./Details.css"
+import "./Details.scss"
 
 export function Details({ children, className, requestStatus, details }) {
 	return (

@@ -1,0 +1,10 @@
+{
+	"breakpoint": {
+		"mobile": {
+			"value": "480px"
+		},
+		"tablet": {
+			"value": "768px"
+		}
+	}
+}

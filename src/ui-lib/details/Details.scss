@@ -1,22 +1,21 @@
+@import "../../design-tokens/variables";
+
 .Details {
 	height: 100%;
 	width: 100%;
 }
 
-/* TODO Use design tokens for default offsets */
 .Details h1 {
-	padding: 16px;
+	padding: $token-spacing-medium;
 }
 
-/* TODO Use design tokens for default offsets */
 .DetailsSummaryContainer {
 	display: flex;
-	margin: 0 8px;
+	margin: 0 $token-spacing-small;
 }
 
-/* TODO Use design tokens for default offsets */
 .DetailsSummary {
-	margin-left: 16px;
+	margin-left: $token-spacing-medium;
 }
 
 .DetailsCoverImage {
@@ -24,8 +23,7 @@
 	min-width: 200px;
 }
 
-/* TODO Use design tokens for breakpoints values */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: $token-breakpoint-mobile) {
 	.DetailsSummaryContainer {
 		flex-flow: column;
 	}
