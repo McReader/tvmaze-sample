@@ -27,6 +27,7 @@
 		"start": "react-scripts start",
 		"prebuild": "npm run build-dictionary",
 		"build": "react-scripts build",
+		"pretest": "npm run build-dictionary",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
 	},
