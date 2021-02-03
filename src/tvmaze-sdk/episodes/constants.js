@@ -1,1 +1,1 @@
-export const EPISODES_RESOURCE_PATH = "/episodes";
+export const EPISODES_RESOURCE_PATH = "/episodes"

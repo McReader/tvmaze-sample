@@ -1,25 +1,27 @@
-import axios from "axios";
+import axios from "axios"
 
-import { EPISODES_RESOURCE_PATH } from "./constants";
-import { EpisodesService } from "./EpisodesService";
+import { EPISODES_RESOURCE_PATH } from "./constants"
+import { EpisodesService } from "./EpisodesService"
 
-jest.mock("axios");
+jest.mock("axios")
 
-const episodeId = 58839;
+const episodeId = 58839
 
-let service;
+let service
 
 beforeEach(() => {
-    axios.mockReset();
-    service = new EpisodesService(axios);
-});
+	axios.mockReset()
+	service = new EpisodesService(axios)
+})
 
 describe("getEpisodeMainInformation", () => {
-    beforeEach(async () => {
-        await service.getEpisodeMainInformation(episodeId);
-    });
+	beforeEach(async () => {
+		await service.getEpisodeMainInformation(episodeId)
+	})
 
-    it(`should call api with correct path`, () => {
-        expect(axios.get).toHaveBeenLastCalledWith(`${EPISODES_RESOURCE_PATH}/${episodeId}`);
-    });
-});
+	it(`should call api with correct path`, () => {
+		expect(axios.get).toHaveBeenLastCalledWith(
+			`${EPISODES_RESOURCE_PATH}/${episodeId}`
+		)
+	})
+})

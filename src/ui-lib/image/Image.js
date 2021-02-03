@@ -1,30 +1,32 @@
-import PropTypes from "prop-types";
+import PropTypes from "prop-types"
 
-export function Image({ alt, src, placeholderWidth = 140, placeholderHeight, ...props }) {
-    let placeholderSrc;
+export function Image({
+	alt,
+	src,
+	placeholderWidth = 140,
+	placeholderHeight,
+	...props
+}) {
+	let placeholderSrc
 
-    if (!src) {
-        const placeholderSize = [placeholderWidth];
+	if (!src) {
+		const placeholderSize = [placeholderWidth]
 
-        if (placeholderHeight) {
-            placeholderSize.push(placeholderHeight);
-        }
+		if (placeholderHeight) {
+			placeholderSize.push(placeholderHeight)
+		}
 
-        placeholderSrc = `https://via.placeholder.com/${placeholderSize.join("x")}?text=No image`;
-    }
+		placeholderSrc = `https://via.placeholder.com/${placeholderSize.join(
+			"x"
+		)}?text=No image`
+	}
 
-    return (
-        <img
-            {...props}
-            alt={alt}
-            src={src || placeholderSrc}
-        />
-    );
+	return <img {...props} alt={alt} src={src || placeholderSrc} />
 }
 
 Image.propTypes = {
-    alt: PropTypes.string,
-    src: PropTypes.string,
-    placeholderHeight: PropTypes.number,
-    placeholderWidth: PropTypes.number,
-};
+	alt: PropTypes.string,
+	src: PropTypes.string,
+	placeholderHeight: PropTypes.number,
+	placeholderWidth: PropTypes.number,
+}

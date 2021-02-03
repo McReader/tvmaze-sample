@@ -1,1 +1,1 @@
-export { EpisodesService } from "./EpisodesService";
+export { EpisodesService } from "./EpisodesService"

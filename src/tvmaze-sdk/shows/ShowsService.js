@@ -1,4 +1,4 @@
-import { SHOWS_RESOURCE_PATH } from "./constants";
+import { SHOWS_RESOURCE_PATH } from "./constants"
 
 /**
  * @typedef {Object} Show
@@ -9,24 +9,24 @@ import { SHOWS_RESOURCE_PATH } from "./constants";
  */
 
 export class ShowsService {
-    constructor(httpClient) {
-        this.httpClient = httpClient;
-    }
+	constructor(httpClient) {
+		this.httpClient = httpClient
+	}
 
-    /**
-     * Get a list of all shows, with all primary information included.
-     * @param {number} showId Show unique identifier
-     * @return {Promise<Show>}
-     */
-    getShowMainInformation(showId) {
-        return this.httpClient.get(`${SHOWS_RESOURCE_PATH}/${showId}`);
-    }
+	/**
+	 * Get a list of all shows, with all primary information included.
+	 * @param {number} showId Show unique identifier
+	 * @return {Promise<Show>}
+	 */
+	getShowMainInformation(showId) {
+		return this.httpClient.get(`${SHOWS_RESOURCE_PATH}/${showId}`)
+	}
 
-    /**
-     * @param {number} showId Show unique identifier
-     * @return {Promise<Episode[]>}
-     */
-    getShowEpisodeList(showId) {
-        return this.httpClient.get(`${SHOWS_RESOURCE_PATH}/${showId}/episodes`);
-    }
+	/**
+	 * @param {number} showId Show unique identifier
+	 * @return {Promise<Episode[]>}
+	 */
+	getShowEpisodeList(showId) {
+		return this.httpClient.get(`${SHOWS_RESOURCE_PATH}/${showId}/episodes`)
+	}
 }
