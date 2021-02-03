@@ -1,4 +1,4 @@
-import episodes from "../tvmaze-sdk/episodes/__mocks__/episodes.json"
+import episodes from "../tvmaze-sdk/episodes/episodesSample.json"
 
 import { fetchShowEpisodeList, initialState, episodesSlice } from "./store"
 

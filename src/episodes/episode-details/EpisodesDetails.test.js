@@ -2,7 +2,7 @@ import renderer from "react-test-renderer"
 
 import { EpisodeDetails } from "./EpisodeDetails"
 
-import episodes from "../../tvmaze-sdk/episodes/__mocks__/episodes.json"
+import episodes from "../../tvmaze-sdk/episodes/episodesSample.json"
 
 import { REQUEST_STATUS_FULFILLED } from "../../ui-lib/request-status/RequestStatus"
 
