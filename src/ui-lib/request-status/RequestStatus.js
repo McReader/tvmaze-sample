@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 import ErrorIcon from "@material-ui/icons/Error"
 
 import { ProgressPlaceholder } from "../progress-placeholder/ProgressPlaceholder"
-import { FillParentPlaceholder } from "../placeholder/FillParentPlaceholder"
+import { FillParentPlaceholder } from "../fill-parent-placeholder/FillParentPlaceholder"
 
 export const REQUEST_STATUS_IDLE = "idle"
 export const REQUEST_STATUS_PENDING = "pending"

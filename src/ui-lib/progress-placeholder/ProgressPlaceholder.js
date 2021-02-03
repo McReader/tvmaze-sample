@@ -1,5 +1,5 @@
 import { CircularProgress } from "@material-ui/core"
-import { FillParentPlaceholder } from "../placeholder/FillParentPlaceholder"
+import { FillParentPlaceholder } from "../fill-parent-placeholder/FillParentPlaceholder"
 
 export function ProgressPlaceholder() {
 	return (
