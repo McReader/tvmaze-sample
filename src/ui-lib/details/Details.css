@@ -1,37 +1,41 @@
 .Details {
-    height: 100%;
-    width: 100%;
+	height: 100%;
+	width: 100%;
 }
 
+/* TODO Use design tokens for default offsets */
 .Details h1 {
-    padding: 16px;
+	padding: 16px;
 }
 
+/* TODO Use design tokens for default offsets */
 .DetailsSummaryContainer {
-    display: flex;
-    margin: 0 8px;
+	display: flex;
+	margin: 0 8px;
 }
 
+/* TODO Use design tokens for default offsets */
 .DetailsSummary {
-    margin-left: 16px;
+	margin-left: 16px;
 }
 
 .DetailsCoverImage {
-    max-width: 500px;
-    min-width: 200px;
+	max-width: 500px;
+	min-width: 200px;
 }
 
+/* TODO Use design tokens for breakpoints values */
 @media only screen and (max-width: 500px) {
-    .DetailsSummaryContainer {
-        flex-flow: column;
-    }
+	.DetailsSummaryContainer {
+		flex-flow: column;
+	}
 
-    .DetailsSummaryContainer {
-        margin: 0;
-    }
+	.DetailsSummaryContainer {
+		margin: 0;
+	}
 
-    .DetailsSummary {
-        margin-left: 0;
-        padding: 0 8px;
-    }
+	.DetailsSummary {
+		margin-left: 0;
+		padding: 0 8px;
+	}
 }
