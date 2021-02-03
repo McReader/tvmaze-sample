@@ -14,11 +14,11 @@ exports[`when request status is "fulfilled" and there is episode should match sn
       className="DetailsCoverImage"
     >
       <source
-        media="(max-width:600px)"
+        media="(max-width:480px"
         srcSet="http://static.tvmaze.com/uploads/images/original_untouched/1/4388.jpg"
       />
       <source
-        media="(max-width:900px)"
+        media="(max-width:768px)"
         srcSet="http://static.tvmaze.com/uploads/images/medium_landscape/1/4388.jpg"
       />
       <img
