@@ -11,8 +11,6 @@ beforeEach(() => {
 });
 
 describe(`when action is "${fetchShowMainInfo.fulfilled}"`, () => {
-    const fakeRequestId = "fakeRequestId";
-
     beforeAll(() => {
         currentState = initialState;
         action = fetchShowMainInfo.fulfilled(showDetails);

@@ -20,12 +20,14 @@ export const fetchEpisodeMainInformation = createAsyncThunk(`${PREFIX}/fetchEpis
 
 const episodesAdapter = createEntityAdapter();
 
+export const initialState = {
+    ...episodesAdapter.getInitialState(),
+    byShow: {},
+};
+
 export const episodesSlice = createSlice({
     name: PREFIX,
-    initialState: { 
-        ...episodesAdapter.getInitialState(),
-        byShow: {},
-    },
+    initialState: initialState,
     reducers: {
         // standard reducer logic, with auto-generated action types per reducer
     },
