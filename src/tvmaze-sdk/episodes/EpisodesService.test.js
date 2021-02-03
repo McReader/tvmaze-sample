@@ -19,7 +19,7 @@ describe("getEpisodeMainInformation", () => {
         await service.getEpisodeMainInformation(episodeId);
     });
 
-    it(`should call api with appropriate path`, () => {
+    it(`should call api with correct path`, () => {
         expect(axios.get).toHaveBeenLastCalledWith(`${EPISODES_RESOURCE_PATH}/${episodeId}`);
     });
 });

@@ -19,7 +19,7 @@ describe("getShowMainInformation", () => {
         await service.getShowMainInformation(showId);
     });
 
-    it(`should call api with page="0" in query params`, () => {
+    it(`should call api with correct path`, () => {
         expect(axios.get).toHaveBeenLastCalledWith(`${SHOWS_RESOURCE_PATH}/${showId}`);
     });
 });
@@ -29,7 +29,7 @@ describe("getShowEpisodeList", () => {
         await service.getShowEpisodeList(showId);
     });
 
-    it(`should call api with page="0" in query params`, () => {
+    it(`should call api with correct path`, () => {
         expect(axios.get).toHaveBeenCalledWith(`${SHOWS_RESOURCE_PATH}/${showId}/episodes`);
     });
 });
