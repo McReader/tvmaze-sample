@@ -42,7 +42,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## State management
 We use Redux library to manage application state. To reduce the amount of boilerplate code, we utilize abilities of the [@reduxjs/toolkit](https://redux-toolkit.js.org) package.
 
-**Note: when you use [createSlice](https://redux-toolkit.js.org/api/createSlice) util from the [@reduxjs/toolkit](https://redux-toolkit.js.org) package, you might safely mutate the state you're given (see [documentation](https://redux-toolkit.js.org/api/createSlice#reducers)) **
+**Note: when you use [createSlice](https://redux-toolkit.js.org/api/createSlice) util from the [@reduxjs/toolkit](https://redux-toolkit.js.org) package, you might safely mutate the state you're given (see [documentation](https://redux-toolkit.js.org/api/createSlice#reducers))**
 
 ## Testing approach
 This section describes how to test following components in the application:
