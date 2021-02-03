@@ -2,13 +2,13 @@ import React from "react"
 import ReactDOM from "react-dom"
 import reportWebVitals from "./reportWebVitals"
 
-import { AppContainer } from "./app/AppContainer"
+import { App } from "./app/App"
 
 import "./index.scss"
 
 ReactDOM.render(
 	<React.StrictMode>
-		<AppContainer />
+		<App />
 	</React.StrictMode>,
 	document.getElementById("root")
 )

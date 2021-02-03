@@ -7,7 +7,7 @@ import { episodesSelectors, fetchEpisodeMainInformation } from "../store"
 import { EpisodeDetails } from "./EpisodeDetails"
 import { episodeDetailsPageSelectors } from "./store"
 
-export function EpisodeDetailsContainer() {
+export default function EpisodeDetailsContainer() {
 	const dispatch = useDispatch()
 	const { episodeId, showId } = useParams()
 

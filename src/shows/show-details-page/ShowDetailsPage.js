@@ -1,20 +1,24 @@
-import PropTypes from "prop-types"
+import { lazy } from "react"
 import { Route, Switch, useRouteMatch } from "react-router-dom"
 
-export function ShowDetailsPage({ episodeDetailsElement, showDetailsElement }) {
+const LazyEpisodeDetailsContainer = lazy(() =>
+	import("../../episodes/episode-details/EpisodeDetailsContainer")
+)
+
+const LazyShowDetailsContainer = lazy(() =>
+	import("../show-details/ShowDetailsContailer")
+)
+
+export function ShowDetailsPage() {
 	const { path } = useRouteMatch()
 
 	return (
 		<Switch>
-			<Route path={`${path}/episodes/:episodeId`}>
-				{episodeDetailsElement}
-			</Route>
-			<Route path={path}>{showDetailsElement}</Route>
+			<Route
+				path={`${path}/episodes/:episodeId`}
+				component={LazyEpisodeDetailsContainer}
+			/>
+			<Route path={path} component={LazyShowDetailsContainer} />
 		</Switch>
 	)
-}
-
-ShowDetailsPage.propTypes = {
-	showDetailsElement: PropTypes.element.isRequired,
-	episodeDetailsElement: PropTypes.element.isRequired,
 }

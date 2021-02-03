@@ -1,4 +1,4 @@
-import { memo, useEffect } from "react"
+import { memo, useEffect, useMemo } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { useParams } from "react-router-dom"
 
@@ -11,9 +11,10 @@ import { showDetailsPageSelectors } from "./store"
 
 const EnhancedShowDetails = memo(ShowDetails)
 
-export function ShowDetailsContainer() {
+export default function ShowDetailsContainer() {
 	const dispatch = useDispatch()
 	const { showId } = useParams()
+	const episodesListContainer = useMemo(() => <EpisodesListContainer />, [])
 
 	useEffect(() => {
 		const showsMainInfoPromise = dispatch(fetchShowMainInfo(showId))
@@ -37,7 +38,7 @@ export function ShowDetailsContainer() {
 
 	return (
 		<EnhancedShowDetails
-			episodesListElement={<EpisodesListContainer />}
+			episodesListElement={episodesListContainer}
 			show={show}
 			requestStatus={showDetailsRequestStatus}
 		/>

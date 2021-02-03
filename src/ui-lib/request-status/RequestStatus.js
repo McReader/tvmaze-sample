@@ -1,8 +1,8 @@
 import PropTypes from "prop-types"
-import { CircularProgress } from "@material-ui/core"
 import ErrorIcon from "@material-ui/icons/Error"
 
-import "./RequestStatus.scss"
+import { ProgressPlaceholder } from "../progress-placeholder/ProgressPlaceholder"
+import { FillParentPlaceholder } from "../placeholder/FillParentPlaceholder"
 
 export const REQUEST_STATUS_IDLE = "idle"
 export const REQUEST_STATUS_PENDING = "pending"
@@ -22,18 +22,14 @@ export function RequestStatus({
 		requestStatus === REQUEST_STATUS_IDLE ||
 		requestStatus === REQUEST_STATUS_PENDING
 	) {
-		return (
-			<div className="RequestStatus">
-				<CircularProgress />
-			</div>
-		)
+		return <ProgressPlaceholder />
 	}
 
 	if (requestStatus === REQUEST_STATUS_REJECTED) {
 		return (
-			<div className="RequestStatus">
+			<FillParentPlaceholder>
 				<ErrorIcon />
-			</div>
+			</FillParentPlaceholder>
 		)
 	}
 
