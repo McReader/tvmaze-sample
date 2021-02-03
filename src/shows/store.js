@@ -9,11 +9,11 @@ export const fetchShowMainInfo = createAsyncThunk(`${PREFIX}/fetchShowMainInfo`,
 
 const showsAdapter = createEntityAdapter();
 
+export const initialState = showsAdapter.getInitialState();
+
 export const showsSlice = createSlice({
     name: PREFIX,
-    initialState: {
-        ...showsAdapter.getInitialState(),
-    },
+    initialState,
     reducers: {
         // standard reducer logic, with auto-generated action types per reducer
     },
