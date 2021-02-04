@@ -23,16 +23,6 @@ describe(`when action is "${fetchShowEpisodeList.fulfilled}"`, () => {
 	})
 
 	test("should fill the store by received items", () => {
-		const expectedEpisodesIds = episodes.map((episode) => episode.id)
-		expect(nextState).toEqual({
-			ids: expectedEpisodesIds,
-			entities: episodes.reduce((accumulated, value) => {
-				accumulated[value.id] = value
-				return accumulated
-			}, {}),
-			byShow: {
-				[fakeShowId]: expectedEpisodesIds,
-			},
-		})
+		expect(nextState).toMatchSnapshot()
 	})
 })

@@ -17,11 +17,6 @@ describe(`when action is "${fetchShowMainInfo.fulfilled}"`, () => {
 	})
 
 	test("should fill the store by received items", () => {
-		expect(nextState).toEqual({
-			ids: [showDetails.id],
-			entities: {
-				[showDetails.id]: showDetails,
-			},
-		})
+		expect(nextState).toMatchSnapshot()
 	})
 })
