@@ -2,7 +2,7 @@
 
 exports[`when requestStatus "idle" should render progress bar 1`] = `
 <div
-  className="RequestStatus"
+  className="FillParentPlaceholder"
 >
   <div
     className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
@@ -34,7 +34,7 @@ exports[`when requestStatus "idle" should render progress bar 1`] = `
 
 exports[`when requestStatus "pending" should render progress bar 1`] = `
 <div
-  className="RequestStatus"
+  className="FillParentPlaceholder"
 >
   <div
     className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
@@ -68,7 +68,7 @@ exports[`when requestStatus "pending" when requestStatus "fulfilled" should rend
 
 exports[`when requestStatus "pending" when requestStatus "rejected" should render caution symbol 1`] = `
 <div
-  className="RequestStatus"
+  className="FillParentPlaceholder"
 >
   <svg
     aria-hidden={true}
