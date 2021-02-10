@@ -8,1373 +8,1451 @@ exports[`when request status is "fulfilled" and there are episodes in list shoul
     className="MuiGridList-root EpisodesListGrid"
     style={
       Object {
-        "margin": -0.5,
+        "margin": -2,
       }
     }
   >
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/1"
-          onClick={[Function]}
+        <img
+          alt="Pilot"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4388.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Pilot"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4388.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Pilot
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S1E1
-              </div>
+              Pilot
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S1E1
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/2"
-          onClick={[Function]}
+        <img
+          alt="The Fire"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4389.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="The Fire"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4389.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                The Fire
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S1E2
-              </div>
+              The Fire
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S1E2
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/3"
-          onClick={[Function]}
+        <img
+          alt="Manhunt"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4390.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Manhunt"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4390.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Manhunt
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S1E3
-              </div>
+              Manhunt
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S1E3
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/4"
-          onClick={[Function]}
+        <img
+          alt="Outbreak"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4391.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Outbreak"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4391.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Outbreak
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S1E4
-              </div>
+              Outbreak
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S1E4
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/5"
-          onClick={[Function]}
+        <img
+          alt="Blue on Blue"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4392.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Blue on Blue"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4392.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Blue on Blue
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S1E5
-              </div>
+              Blue on Blue
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S1E5
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/6"
-          onClick={[Function]}
+        <img
+          alt="The Endless Thirst"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4393.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="The Endless Thirst"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4393.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                The Endless Thirst
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S1E6
-              </div>
+              The Endless Thirst
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S1E6
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/7"
-          onClick={[Function]}
+        <img
+          alt="Imperfect Circles"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4394.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Imperfect Circles"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4394.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Imperfect Circles
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S1E7
-              </div>
+              Imperfect Circles
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S1E7
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/8"
-          onClick={[Function]}
+        <img
+          alt="Thicker Than Water"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4395.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Thicker Than Water"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4395.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Thicker Than Water
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S1E8
-              </div>
+              Thicker Than Water
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S1E8
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/9"
-          onClick={[Function]}
+        <img
+          alt="The Fourth Hand"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4396.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="The Fourth Hand"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4396.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                The Fourth Hand
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S1E9
-              </div>
+              The Fourth Hand
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S1E9
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/10"
-          onClick={[Function]}
+        <img
+          alt="Let the Games Begin"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4397.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Let the Games Begin"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4397.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Let the Games Begin
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S1E10
-              </div>
+              Let the Games Begin
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S1E10
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/11"
-          onClick={[Function]}
+        <img
+          alt="Speak of the Devil"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4398.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Speak of the Devil"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4398.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Speak of the Devil
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S1E11
-              </div>
+              Speak of the Devil
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S1E11
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/12"
-          onClick={[Function]}
+        <img
+          alt="Exigent Circumstances"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4399.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Exigent Circumstances"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4399.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Exigent Circumstances
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S1E12
-              </div>
+              Exigent Circumstances
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S1E12
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/13"
-          onClick={[Function]}
+        <img
+          alt="Curtains"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4400.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Curtains"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/1/4400.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Curtains
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S1E13
-              </div>
+              Curtains
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S1E13
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/14"
-          onClick={[Function]}
+        <img
+          alt="Heads Will Roll"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10446.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Heads Will Roll"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10446.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Heads Will Roll
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S2E1
-              </div>
+              Heads Will Roll
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S2E1
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/15"
-          onClick={[Function]}
+        <img
+          alt="Infestation"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10447.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Infestation"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10447.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Infestation
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S2E2
-              </div>
+              Infestation
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S2E2
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/16"
-          onClick={[Function]}
+        <img
+          alt="Force Majeure"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10448.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Force Majeure"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10448.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Force Majeure
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S2E3
-              </div>
+              Force Majeure
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S2E3
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/17"
-          onClick={[Function]}
+        <img
+          alt="Revelation"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10449.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Revelation"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10449.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Revelation
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S2E4
-              </div>
+              Revelation
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S2E4
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/18"
-          onClick={[Function]}
+        <img
+          alt="Reconciliation"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10450.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Reconciliation"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10450.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Reconciliation
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S2E5
-              </div>
+              Reconciliation
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S2E5
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/19"
-          onClick={[Function]}
+        <img
+          alt="In the Dark"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10451.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="In the Dark"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10451.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                In the Dark
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S2E6
-              </div>
+              In the Dark
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S2E6
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/20"
-          onClick={[Function]}
+        <img
+          alt="Going Home"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10452.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Going Home"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10452.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Going Home
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S2E7
-              </div>
+              Going Home
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S2E7
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/21"
-          onClick={[Function]}
+        <img
+          alt="Awakening"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10453.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Awakening"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10453.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Awakening
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S2E8
-              </div>
+              Awakening
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S2E8
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/22"
-          onClick={[Function]}
+        <img
+          alt="The Red Door"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10454.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="The Red Door"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10454.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                The Red Door
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S2E9
-              </div>
+              The Red Door
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S2E9
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/23"
-          onClick={[Function]}
+        <img
+          alt="The Fall"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10455.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="The Fall"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10455.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                The Fall
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S2E10
-              </div>
+              The Fall
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S2E10
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/24"
-          onClick={[Function]}
+        <img
+          alt="Black Ice"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10456.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Black Ice"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10456.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Black Ice
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S2E11
-              </div>
+              Black Ice
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S2E11
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/25"
-          onClick={[Function]}
+        <img
+          alt="Turn"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10457.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Turn"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10457.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Turn
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S2E12
-              </div>
+              Turn
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S2E12
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/26"
-          onClick={[Function]}
+        <img
+          alt="Go Now"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10458.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Go Now"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/4/10458.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Go Now
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S2E13
-              </div>
+              Go Now
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S2E13
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/142270"
-          onClick={[Function]}
+        <img
+          alt="Move On"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/12/31233.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Move On"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/12/31233.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Move On
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S3E1
-              </div>
+              Move On
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S3E1
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/151048"
-          onClick={[Function]}
+        <img
+          alt="But I'm Not"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/12/31234.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="But I'm Not"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/12/31234.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                But I'm Not
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S3E2
-              </div>
+              But I'm Not
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S3E2
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/151645"
-          onClick={[Function]}
+        <img
+          alt="Redux"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/12/31939.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Redux"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/12/31939.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Redux
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S3E3
-              </div>
+              Redux
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S3E3
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/153120"
-          onClick={[Function]}
+        <img
+          alt="The Kinship"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/12/32457.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="The Kinship"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/12/32457.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                The Kinship
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S3E4
-              </div>
+              The Kinship
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S3E4
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/176889"
-          onClick={[Function]}
+        <img
+          alt="Alaska"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/13/33494.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Alaska"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/13/33494.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Alaska
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S3E5
-              </div>
+              Alaska
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S3E5
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/176890"
-          onClick={[Function]}
+        <img
+          alt="Caged"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/13/34493.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Caged"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/13/34493.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Caged
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S3E6
-              </div>
+              Caged
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S3E6
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/185048"
-          onClick={[Function]}
+        <img
+          alt="Ejecta"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/13/34948.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Ejecta"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/13/34948.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Ejecta
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S3E7
-              </div>
+              Ejecta
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S3E7
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/185049"
-          onClick={[Function]}
+        <img
+          alt="Breaking Point"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/14/36036.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Breaking Point"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/14/36036.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Breaking Point
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S3E8
-              </div>
+              Breaking Point
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S3E8
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/185050"
-          onClick={[Function]}
+        <img
+          alt="Plan B"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/14/37358.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Plan B"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/14/37358.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Plan B
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S3E9
-              </div>
+              Plan B
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S3E9
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/185051"
-          onClick={[Function]}
+        <img
+          alt="Legacy"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/15/39057.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Legacy"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/15/39057.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Legacy
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S3E10
-              </div>
+              Legacy
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S3E10
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/185052"
-          onClick={[Function]}
+        <img
+          alt="Love is a Battlefield"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/16/40250.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Love is a Battlefield"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/16/40250.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Love is a Battlefield
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S3E11
-              </div>
+              Love is a Battlefield
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S3E11
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/185053"
-          onClick={[Function]}
+        <img
+          alt="Incandescence"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/16/41932.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="Incandescence"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/16/41932.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                Incandescence
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S3E12
-              </div>
+              Incandescence
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S3E12
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
     <li
       className="MuiGridListTile-root"
+      style={
+        Object {
+          "height": 144,
+          "padding": 2,
+          "width": "100%",
+        }
+      }
     >
       <div
         className="MuiGridListTile-tile"
       >
-        <a
-          href="/episodes/185054"
-          onClick={[Function]}
+        <img
+          alt="The Enemy Within"
+          src="http://static.tvmaze.com/uploads/images/medium_landscape/17/43622.jpg"
+        />
+        <div
+          className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
         >
-          <img
-            alt="The Enemy Within"
-            src="http://static.tvmaze.com/uploads/images/medium_landscape/17/43622.jpg"
-          />
           <div
-            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+            className="MuiGridListTileBar-titleWrap"
           >
             <div
-              className="MuiGridListTileBar-titleWrap"
+              className="MuiGridListTileBar-title"
             >
-              <div
-                className="MuiGridListTileBar-title"
-              >
-                The Enemy Within
-              </div>
-              <div
-                className="MuiGridListTileBar-subtitle"
-              >
-                S3E13
-              </div>
+              The Enemy Within
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              S3E13
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </li>
   </ul>

@@ -1,5 +1,4 @@
 import renderer from "react-test-renderer"
-import { MemoryRouter } from "react-router-dom"
 
 import { EpisodesList } from "./EpisodesList"
 
@@ -11,13 +10,7 @@ let tree
 let props
 
 beforeEach(() => {
-	tree = renderer
-		.create(
-			<MemoryRouter>
-				<EpisodesList {...props} />
-			</MemoryRouter>
-		)
-		.toJSON()
+	tree = renderer.create(<EpisodesList {...props} />).toJSON()
 })
 
 describe(`when request status is "${REQUEST_STATUS_FULFILLED}" and there are episodes in list`, () => {
