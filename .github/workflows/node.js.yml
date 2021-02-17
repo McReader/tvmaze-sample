@@ -28,21 +28,11 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
-  lighthouse-check:
-
-    runs-on: ubuntu-latest
-    
-    steps:
-      - uses: actions/checkout@master
-      - run: mkdir /tmp/artifacts
-      - name: Run Lighthouse
-        uses: foo-software/lighthouse-check-action@master
-        with:
-          accessToken: ${{ secrets.LIGHTHOUSE_CHECK_GITHUB_ACCESS_TOKEN }}
-          author: ${{github.actor}}
-          branch: ${{ github.ref }}
-          outputDirectory: /tmp/artifacts
-          sha: ${{ github.sha }}
+    - name: Run Lighthouse against a static dist dir
+      uses: treosh/lighthouse-ci-action@v7
+      with:
+        # no urls needed, since it uses local folder to scan .html files
+        configPath: './lighthouserc.json'
       
       
       
